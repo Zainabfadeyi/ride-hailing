@@ -82,4 +82,22 @@
     width: 650px;
     margin-left: 40px;
   }
-  
+  @media (max-width:768px){
+   
+    .overlay{
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .cta-section{
+    
+        flex-direction: column;
+
+    }
+    .cta-image{
+        width: 100%;
+    }
+    .cta-image img {
+       width: 100%;
+        margin: 0;
+      }
+  }

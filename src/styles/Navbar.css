@@ -82,11 +82,12 @@
   
   
   .fa-bars {
-
+    color: #000;
   }
   
   .menu-icon {
     display: none;
+    color: #000 !important;
   }
   /* Navbar.css */
 
@@ -208,12 +209,18 @@
       transform: translate(-100%, 60%);
       font-size: 1.8rem;
       cursor: pointer;
+      color: #000;
     }
   
     .fa-times {
-
+      color: #000;
       font-size: 2rem;
     }
+    .fa-bars {
+      color: #000;
+      font-size: 2rem;
+    }
+  
   
     .nav-btn {
       display: flex;

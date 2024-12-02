@@ -1,6 +1,4 @@
-:root {
-    --primary: #fff;
-  }
+
   
   .btn {
     padding: 8px 20px;
@@ -19,14 +17,13 @@
   
   .btn--outline {
     background-color: black;
-    color: #fff;
+
     padding: 8px 20px;
     border-radius: 16px;
     transition: all 0.3s ease-out;
   }
   .btn--outline-sub {
     background-color: black;
-    color: #fff;
     padding: 17px 20px;
     border-radius: 16px;
     transition: all 0.3s ease-out;
@@ -90,7 +87,7 @@
     outline: none;
     border: none;
     border-radius: 10px;
-    color: #fff;
+
     font-weight: 700;
     font-size: 17px;
     cursor: pointer;
