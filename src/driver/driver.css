@@ -161,6 +161,7 @@
       flex-direction: column;
     }
   }
+ 
   .driver-download-section {
     text-align: center;
     padding: 50px 0;
@@ -229,7 +230,18 @@
     }
     .right-side{
         width: 100%;
+        margin-bottom: 90px;
     }
+    .driver-benefits-title{
+        font-size: 30px;
+    }
+    .driver-benefit-title{
+        font-size: 22px;
+    }
+    .driver-benefits-description {
+        font-size: 20px;
+       
+      }
     .overlay{
         margin-top: 50px;
         flex-direction: column;
@@ -246,5 +258,13 @@
        width: 100%;
         margin: 0;
       }
+      .driver-cta-text h2 {
+        font-size: 30px;
+      
+    }
+    .driver-cta-text p {
+      
+        font-size: 18px;
+    }
   }
   

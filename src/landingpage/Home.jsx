@@ -10,7 +10,7 @@ import Download from './download/Download';
 const Home = () => {
 
   return (  
-    <div >   
+    <div>   
       <HeroSection>
          <Banner/>
           <Info/>

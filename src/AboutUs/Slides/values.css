@@ -96,17 +96,13 @@
     position: relative;
   }
   
-  /* Center align pagination and navigation controls together */
-  .value-container  .swiper-pagination {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px; /* Space between pagination dots and arrows */
-    width: 100%;
-    margin: 20px;
-  }
-  
+.value-container .swiper-button-prev{
+display: none;
 
+}
+.value-container .swiper-button-next{
+  display: none;
+}
   /* Style the pagination dots */
   .value-container  .swiper-pagination-bullet {
     background-color: #007bff;
@@ -125,7 +121,7 @@
       text-align: center;
     }
     .values-notes h1{
-      font-size: 40px;
+      font-size: 30px;
     }
     .values-notes p{
       width: 100%;
@@ -147,7 +143,7 @@
       height: auto;
     }
     .value-container .section-image{
-      width: 100%;
+      width: 90%;
       height: max-content;
     }
     .value-container .image-text-container{
@@ -165,8 +161,13 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 22px;
+      font-size: 18px;
+      width: 90%;
     }
+    .value-container .text-content h2 {
+      font-size: 22px;
+      margin-bottom: 10px;
+  }
     .text-content h3{
       display: none;
     }

@@ -53,5 +53,18 @@
     font-size: 22px;
     color: #555;
   }
+  @media(max-width:768px){
+    .services-section h2 {
+      font-size: 30px;
+    }
+    .services-section p {
+      font-size: 20px;
+   
+  }
+  .service-card h3{
+    font-size: 25px;
+  }
+    
+  }
 
   
