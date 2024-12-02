@@ -125,6 +125,11 @@
     left: 80% !important;
     transform: translateX(-80%) !important;
   }
+  .pic-heading {
+    padding: 10px 0; /* 1rem to px */
+    font-size: 40px; /* 3.5rem to px */
+    text-align: center;
+  }
 }
 
 @media (max-width: 990px) {

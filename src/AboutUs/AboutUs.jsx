@@ -46,6 +46,7 @@ import { ServicesSection } from "../landingpage/serivces/ServicesSection";
 import PicSlides from "./Slides/PicSlides";
 import Values from "./Slides/Values";
 import Mission from "./missions/Mission";
+import TeamsGrid from "./teams/TeamsGrid";
 
 const About = () => {
   
@@ -111,6 +112,7 @@ const About = () => {
       </section>
       <Mission/>
       <Values/>
+      <TeamsGrid/>
       <PicSlides/>
     
     </>

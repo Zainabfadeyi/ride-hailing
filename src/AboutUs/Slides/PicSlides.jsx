@@ -111,7 +111,7 @@ const PicSlides = () => {
 
   return (
     <div className="pic-container">
-      <h1 className="pic-heading">Our Teams</h1>
+      <h1 className="pic-heading">Our Executive Members</h1>
       <Swiper
         effect={'coverflow'}
         grabCursor={true}

@@ -169,11 +169,12 @@
     }
 
     .left-row h1{
-      font-size:45px;
+      font-size:35px;
     }
     .left-row h3{
-      font-size: 20px;
-  
+      font-size: 18px;
+      display: flex;
+      width: 100%;
       text-align: center;
       align-items: center;
     }
@@ -198,10 +199,10 @@
     }
 
     .right-row-wrapper-item h1{
-      font-size: 60px;
+      font-size: 50px;
     }
     .right-row-wrapper-item h3{
-      font-size: 30px;
+      font-size: 25px;
     }
     .about p {
       padding: 0;

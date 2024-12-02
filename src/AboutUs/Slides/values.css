@@ -7,6 +7,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
 
 }
 .values-notes{
@@ -124,11 +125,11 @@
       text-align: center;
     }
     .values-notes h1{
-      font-size: 60px;
+      font-size: 40px;
     }
     .values-notes p{
       width: 100%;
-      font-size: 25px;
+      font-size: 20px;
     }
     .value-container{
       height: auto;
@@ -158,5 +159,16 @@
       height: auto;
       display: flex;
       flex-direction: column;
+      align-items: center;
+    }
+    .value-container .text-content p{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+    }
+    .text-content h3{
+      display: none;
     }
   }
+ 

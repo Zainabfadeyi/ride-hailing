@@ -10,7 +10,7 @@ import Download from './download/Download';
 const Home = () => {
 
   return (  
-    <div style={{width:"100%"}}>   
+    <div >   
       <HeroSection>
          <Banner/>
           <Info/>
