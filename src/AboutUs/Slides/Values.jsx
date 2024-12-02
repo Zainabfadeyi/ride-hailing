@@ -5,10 +5,11 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination } from 'swiper/modules';
 import './values.css'; // Assuming you have your styles in this file
-import slide_image_1 from '../../images/home/user-five.png';
-import slide_image_2 from '../../images/home/user-five.png';
-import slide_image_3 from '../../images/home/user-five.png';
-
+import slide_image_1 from '../../images/values/media02.webp';
+import slide_image_2 from '../../images/values/media04.webp';
+import slide_image_3 from '../../images/values/media05.webp';
+import slide_image_4 from '../../images/values/media11.webp';
+import slide_image_5 from '../../images/values/media08.webp';
 
 const Values = () => {
   // Data for the sections
@@ -35,13 +36,13 @@ const Values = () => {
         id: 4,
         title: 'Extreme pragmatism',
         content: "We discard most opportunities to focus on what matters. Not everything should be AB tested, so we balance common sense and data to make the right decisions. We don’t fool ourselves that we’re perfect and consider critical feedback seriously.",
-        imageUrl: slide_image_3
+        imageUrl: slide_image_4
       },
       {
         id: 5,
         title: 'Work hard. Work smart.',
         content: " To solve large challenges with modest resources, working smart isn’t enough. Our people take pride in pushing themselves to achieve extraordinary things but know their true limits and when to take a break. We never put in hours just for the sake of hours. What matters is impact, and if you find a shortcut to success, go for it!",
-        imageUrl: slide_image_3
+        imageUrl: slide_image_5
       },
 
 

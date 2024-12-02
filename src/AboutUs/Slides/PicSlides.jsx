@@ -89,23 +89,23 @@ import 'swiper/css/navigation';
 import './slides.css'
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules'; 
 
-import slide_image_1 from '../../images/home/user-five.png';
-import slide_image_2 from '../../images/home/user-five.png';
-import slide_image_3 from '../../images/home/user-five.png';
-import slide_image_4 from '../../images/home/user-five.png';
-import slide_image_5 from '../../images/home/user-one.png';
-import slide_image_6 from '../../images/home/user-five.png';
-import slide_image_7 from '../../images/home/user-five.png';
+import slide_image_1 from '../../images/slides/businessOperations1.webp';
+import slide_image_2 from '../../images/slides/businessOperations0.webp';
+import slide_image_3 from '../../images/slides/businessOperations2.webp';
+import slide_image_4 from '../../images/slides/businessOperations3.webp';
+import slide_image_5 from '../../images/slides/businessOperations5.webp';
+import slide_image_6 from '../../images/slides/businessOperations7.webp';
+import slide_image_7 from '../../images/slides/businessOperations6.webp';
 
 const PicSlides = () => {
   // Array containing user data (image, name, role)
   const slidesData = [
-    { image: slide_image_1, name: 'John Doe', role: 'Operations Manager' },
+    { image: slide_image_1, name: 'Emily Johnson', role: 'Operations Manager' },
     { image: slide_image_2, name: 'Jane Smith', role: 'Business Analyst' },
     { image: slide_image_3, name: 'Michael Brown', role: 'Chief Executive Officer' },
-    { image: slide_image_4, name: 'Emily Johnson', role: 'Marketing Specialist' },
+    { image: slide_image_4, name: 'John Doe', role: 'Marketing Specialist' },
     { image: slide_image_5, name: 'Chris Lee', role: 'Product Manager' },
-    { image: slide_image_6, name: 'Samantha White', role: 'Project Coordinator' },
+    { image: slide_image_6, name: 'Sam White', role: 'Project Coordinator' },
     { image: slide_image_7, name: 'David Green', role: 'Sales Executive' },
   ];
 
