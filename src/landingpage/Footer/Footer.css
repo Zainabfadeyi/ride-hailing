@@ -153,12 +153,18 @@
     margin-bottom: 16px;
   }
   
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 768px) {
     .footer-links {
       padding-top: 2rem;
       width: 0;
       
     }
+    .footer-link-items a {
+   
+      font-size: 20px;
+  
+     
+     }
 
   
     .btn {

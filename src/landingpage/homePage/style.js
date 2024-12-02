@@ -13,7 +13,7 @@ export const FlexContainer = styled.div`
 export const UsersContainer = styled.div`
   padding: 80px 0;
   p.slide-heading {
-    font-size: 38px;
+    font-size: 33px;
     font-weight: 700;
     color: ${colors.brownishGrey};
     margin-bottom: 50px;

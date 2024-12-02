@@ -56,7 +56,7 @@ const SignUpForm = () => {
         </div>
 
         <div className="form-group">
-          <button type="submit">Register</button>
+          <button className='submit-button' type="submit">Register</button>
         </div>
 
         <p>

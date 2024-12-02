@@ -79,7 +79,7 @@
     border-radius: 0 4px 4px 0;
   }
   
-  button {
+  .submit-button {
     padding: 10px 20px;
     background-color: #28a745;
     color: white;
