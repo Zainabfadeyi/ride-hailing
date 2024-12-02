@@ -1,0 +1,85 @@
+.download-section {
+    text-align: center;
+    padding: 50px 0;
+
+   
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .toggle-buttons {
+    margin-bottom: 30px;
+  }
+  
+  .toggle-button {
+    background: #e0e0e0;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 20px;
+  }
+  
+  .toggle-button.active {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .cta-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+
+    margin-top: 30px;
+    background-color: #1D965C;
+    height: 630px;
+    color: #fff;
+    margin-bottom: 50px;
+    height: 100vh;
+  }
+  
+  .cta-text {
+    /* max-width: 500px; */
+
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .cta-text h2 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  .cta-text p {
+    margin: 15px 0;
+    font-size: 25px;
+  }
+  
+  .cta-button {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+  .cta-image{
+    width: 100%;
+  }
+  
+  .cta-image img {
+    width: 650px;
+    margin-left: 40px;
+  }
+  

@@ -1,0 +1,162 @@
+.value-wrapper{
+    margin: 0;
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.values-notes{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 70px;
+
+}
+.values-notes h1{
+    font-size: 100px;
+}
+.values-notes p{
+    font-size: 30px;
+    width: 60%;
+    padding: 0;
+    margin: 0;
+
+}
+.value-container {
+    margin: 0;
+    text-align: center;
+    background-color: #fff;
+    width: 100%;
+
+  }
+  
+  .value-container  .section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px; /* Adjust based on your design */
+    padding: 20px;
+  }
+  
+  .value-container  .section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .value-container .section p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  .value-container .image-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    width: 100%;
+    gap: 40px; /* Add space between the image and text */
+  }
+  
+  .value-container  .section-image {
+    width: 600px; /* Adjust the size of the image */
+   height: 700px;
+
+    border-radius: 10px; /* Optional styling for rounded corners */
+  }
+  .section-image-cover{
+    width: 100%;
+  }
+  
+  .value-container .text-content {
+   width: 100%;
+    text-align: left;
+  }
+  
+  .value-container .text-content h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .value-container  .text-content p {
+    font-size: 24px;
+ 
+    max-width: 500px;
+    color: #555;
+  }
+  
+  .value-container .mySwiper {
+    width: 100%;
+    height: 100%; /* Ensure Swiper takes up the full height of the section */
+    position: relative;
+  }
+  
+  /* Center align pagination and navigation controls together */
+  .value-container  .swiper-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between pagination dots and arrows */
+    width: 100%;
+    margin: 20px;
+  }
+  
+
+  /* Style the pagination dots */
+  .value-container  .swiper-pagination-bullet {
+    background-color: #007bff;
+  }
+  
+  .value-container .swiper-pagination-bullet-active {
+    background-color: #ff5722;
+  }
+  @media (max-width:768px){
+    .value-container .swiper-wrapper{
+      width: 100%;
+      
+    }
+    .values-notes{
+      justify-content: center;
+      text-align: center;
+    }
+    .values-notes h1{
+      font-size: 60px;
+    }
+    .values-notes p{
+      width: 100%;
+      font-size: 25px;
+    }
+    .value-container{
+      height: auto;
+    }
+    .value-container .section{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      align-items: center;
+      padding: 0;
+      height: auto;
+    }
+    .section-image-cover{
+      width: 100%;
+      height: auto;
+    }
+    .value-container .section-image{
+      width: 100%;
+      height: max-content;
+    }
+    .value-container .image-text-container{
+      flex-direction: column;
+      
+    }
+    .value-container .text-content {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+    }
+  }

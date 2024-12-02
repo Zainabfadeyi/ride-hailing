@@ -1,0 +1,11 @@
+.hero_section{
+   width: 100%;
+  
+}
+
+@media screen and (max-width: 768px) {
+    .hero_section{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+  }
