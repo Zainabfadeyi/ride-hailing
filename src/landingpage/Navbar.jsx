@@ -40,7 +40,7 @@ const Navbar = () => {
     <>
       <IconContext.Provider value={{ color: "" }}>
         <nav className="navbar">
-          <div className="navbar-container container">
+          <div className="navbar-container Navcontainer">
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
              
             QuickLift
