@@ -4,12 +4,25 @@
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .info-banner {
+    margin-top: 0;
+    padding: 40px 0 100px 0; 
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
     /* height: 80vh; */
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+  
   .banner-container{
     padding: 0px;
   }

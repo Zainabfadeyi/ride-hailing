@@ -48,7 +48,7 @@ export const Into = () => {
   }
 
   return (
-    <section className="banner" id="home">
+    <section className="info-banner" id="home">
       <Container className="banner-container">
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
