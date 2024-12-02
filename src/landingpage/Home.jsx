@@ -10,7 +10,7 @@ import Download from './download/Download';
 const Home = () => {
 
   return (  
-    <>   
+    <div style={{width:"100%"}}>   
       <HeroSection>
          <Banner/>
           <Info/>
@@ -18,7 +18,7 @@ const Home = () => {
         <Testimonials />
         <Download/>
       </HeroSection>
-    </>
+    </div>
   );
 };
 

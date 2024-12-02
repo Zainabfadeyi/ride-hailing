@@ -2,9 +2,7 @@
 .container {
     display: flex;
     text-align: center;
-/*     
-     background-image: url('../../images//assets/hero.webp');
-     height: 100dvh; */
+
   }
   .wrapper{
     width: 100%;
@@ -51,7 +49,7 @@
     height: auto;
     float: left;
   }
-  @media (max-width:1200px){
+  @media (max-width:768px){
     .container{
       display: flex;
       flex-direction: column;
@@ -61,7 +59,7 @@
     width: 100%;
   }
   .header{
-    font-size: 45px;
+    font-size: 40px;
   }
   .about{
     font-size: 15px;
@@ -75,9 +73,23 @@
   }
  
   }
-  @media (max-width:768){
+  @media (max-width:768px){
     .animation{
-      width: 40%;
+      width: 30%;
     }
+  
     
+  }
+  @media(max-width:400px){
+    .header{
+      font-size: 30px;
+    }
+    .about{
+      font-size: 15px;
+  
+      
+    }
+    .animation{
+      width: 30%;
+    }
   }
