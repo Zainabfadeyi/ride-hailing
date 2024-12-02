@@ -1,0 +1,250 @@
+.driver-container {
+    position: relative;
+    background-image: url('../images/assets/header-desktop.webp'); /* Image path */
+    background-size: cover;    /* Make sure the image covers the whole container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    width: 100%;
+    height: 100vh; /* Make it cover the full viewport height */
+    display: flex;
+    align-items: center; /* Center the content vertically */
+    justify-content: center; /* Center the content horizontally */
+  }
+  
+  .overlay {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  .left-side {
+    flex: 1;
+   
+    background-size: cover;
+    padding: 50px;
+    color: white;
+  }
+  
+  .right-side {
+    flex: 1;
+    background-color: white;
+    padding: 50px;
+    box-shadow: 20px 30px 40px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+  }
+  .form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .form-group .email-input{
+    width: 95%;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .phone-input {
+    display: flex;
+  }
+  
+  .phone-input span {
+    display: inline-block;
+    padding: 10px;
+    background: #e9e9e9;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .phone-input input {
+    flex: 1;
+    border-radius: 0 4px 4px 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .content-container {
+    max-width: 500px;
+  }
+  
+  .content-container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .content-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+    
+  .driver-benefits-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .driver-benefits-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .driver-benefits-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .driver-benefits-description {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 50px;
+  }
+  
+  .driver-benefits-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .driver-benefit {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .driver-benefit-icon {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #5a67d8; /* Example color for icons */
+  }
+  
+  .driver-benefit-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .driver-benefit-description {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  @media (max-width: 768px) {
+    .driver-benefits-list {
+      flex-direction: column;
+    }
+  }
+  .driver-download-section {
+    text-align: center;
+    padding: 50px 0;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+  }
+  
+  .driver-section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .driver-cta-section {
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color: #1D965C;
+    color: #fff;
+    margin-bottom: 50px;
+    height: 100vh;
+  }
+  
+  .driver-cta-text {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .driver-cta-text h2 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  .driver-cta-text p {
+    margin: 15px 0;
+    font-size: 25px;
+  }
+  
+  .driver-cta-button {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+  .driver-cta-image{
+    width: 100%;
+  }
+  
+  .driver-cta-image img {
+    width: 650px;
+    margin-left: 40px;
+  }
+  @media (max-width:768px){
+    .left-side{
+        width: 100%;
+    }
+    .right-side{
+        width: 100%;
+    }
+    .overlay{
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .driver-cta-section{
+    
+        flex-direction: column;
+
+    }
+    .driver-cta-image{
+        width: 100%;
+    }
+    .driver-cta-image img {
+       width: 100%;
+        margin: 0;
+      }
+  }
+  

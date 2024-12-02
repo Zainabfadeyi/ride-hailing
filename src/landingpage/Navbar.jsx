@@ -72,7 +72,7 @@ const Navbar = () => {
                        <div className="dropdown-menu">
                          <div className="navbar-dropdown-item">
                           <div ><IoMdPerson style={{color:"blue"}} /></div>
-                          <div  className="dropdown-item-name">
+                          <Link to='/Driver-registration' className="dropdown-item-name">
                             <div className="dropdown-item-text">
                             <div className="top">Become a driver</div>
                             <div  className="bottom">Make money on your terms</div>
@@ -80,7 +80,7 @@ const Navbar = () => {
                             <div>
                             <FaArrowRight  style={{color:"black"}} />
                             </div>
-                          </div>
+                          </Link>
                           </div>
                          <div className="navbar-dropdown-item">
                          <div><LuBike style={{color:"green"}}/>

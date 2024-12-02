@@ -3,6 +3,7 @@ import LayoutHome from './layout/LayoutHome';
 import Home from './landingpage/Home';
 import About from './AboutUs/AboutUs';
 import LayoutAbout from './layout/LayoutAbout';
+import Driver from './driver/Driver';
 
 function App() {
   return (
@@ -11,10 +12,10 @@ function App() {
         <Routes>
       <Route path="/" element={<LayoutHome />}>
             <Route path="/" element={<Home />} />
-            <Route path='/About-us' element={<About/>}/>
           </Route>
-          <Route path="/About-us" element={<LayoutAbout/>}>
+          <Route element={<LayoutAbout/>}>
             <Route path='/About-us' element={<About/>}/>
+            <Route path='/Driver-registration' element={<Driver/>}/>
           </Route>
           </Routes>
      </div>
