@@ -64,6 +64,13 @@
   .service-card h3{
     font-size: 20px;
   }
+  .services-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .service-card{
+    width: 90%;
+  }
     
   }
 

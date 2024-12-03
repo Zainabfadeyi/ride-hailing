@@ -5,12 +5,12 @@ import { Banner } from './banner/Banner';
 import Info from './banner/Info';
 import { ServicesSection } from './serivces/ServicesSection';
 import Download from './download/Download';
-
+import '../styles/layout.css'
 
 const Home = () => {
 
   return (  
-    <div>   
+    <div className='home'>   
       <HeroSection>
          <Banner/>
           <Info/>

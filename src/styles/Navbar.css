@@ -123,12 +123,14 @@
   align-items: center;
   width: 100%;
  
-
+  outline: none;
+  text-decoration: none;
   
 }
 .dropdown-item-text{
  width: 100%;
  text-align: left;
+ 
 
 }
 .top{
@@ -237,8 +239,4 @@
       height: 120px;
     }
   }
-  @media(max-height:768px){
-    .nav-links{
-      font-size: 18px;
-    }
-  }
+  

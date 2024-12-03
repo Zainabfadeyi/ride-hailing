@@ -14,9 +14,10 @@
 }
 
 
-@media screen and (max-width: 990px) {
+@media(max-width: 768px) {
 
     .home{
-    width: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
     }
   }

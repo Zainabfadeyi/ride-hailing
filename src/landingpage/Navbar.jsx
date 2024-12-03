@@ -87,7 +87,7 @@ const Navbar = () => {
                          </div>
                           <div  className="dropdown-item-name">
                             <div className="dropdown-item-text">
-                            <div className="top">Become a driver</div>
+                            <div className="top">Become a courier</div>
                             <div className="bottom">Make money on your terms</div>
                             </div>
                             <div>
@@ -99,7 +99,7 @@ const Navbar = () => {
                          <div ><ImSpoonKnife style={{color:"green"}}/></div>
                           <div  className="dropdown-item-name">
                             <div className="dropdown-item-text">
-                            <div className="top">Become a driver</div>
+                            <div className="top">Add a restaurant</div>
                             <div className="bottom">Make money on your terms</div>
                             </div>
                             <div>
