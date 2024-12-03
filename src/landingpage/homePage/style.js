@@ -41,7 +41,7 @@ export const UserCard = styled(motion.div)`
   overflow: hidden;
   > img {
     border-radius: 8px;
-    width: 100%;
+    width: 85%;
     object-fit: cover;
     height: 450px;
   }

@@ -2,17 +2,18 @@
 .container {
     display: flex;
     text-align: center;
-
+    height: 100vh;
+    align-items: center;
   }
   .wrapper{
     width: 100%;
 
   }
   .header{
-    font-size: 65px;
+    font-size: 45px;
   }
   .about{
-    font-size: 25px;
+    font-size: 18px;
 
     
   }
@@ -32,7 +33,7 @@
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 17px;
     margin-bottom: 20px;
   }
   
