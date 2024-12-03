@@ -1,6 +1,6 @@
 export const cardVariants = {
     initial: {
-      width: "160px",
+      width: "180px",
     },
     hover: {
       width: "100%",
