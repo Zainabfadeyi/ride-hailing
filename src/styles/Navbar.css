@@ -26,6 +26,7 @@
     margin-right: auto;
     margin-left: auto;
     padding-right: 50px;
+    padding-left: 30px;
   
   }
   
@@ -51,12 +52,12 @@
     text-align: center;
     justify-content: flex-end;
     width: 100%;
-    column-gap: 400px;
+    column-gap: 350px;
     
   }
   .nav-menu-item{
     outline: none;
-    font-size: 22px;
+    font-size: 18px;
     display: flex;
     color: black;
   }

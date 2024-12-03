@@ -11,7 +11,6 @@ import {
 
 import USERONE from "../../images/home/doorstep.jpg";
 import USERTWO from "../../images/home/user-two.png";
-import USERTHREE from "../../images/home/user-three.png";
 import USERFOUR from "../../images/home/uber.jpg";
 import USERFIVE from "../../images/home/user-five.png";
 import USERSIX from "../../images/home/rental.jpg";
@@ -36,12 +35,7 @@ export const TESTIMONIALS = [
     testimonial:
     "I used QuickLift during a trip to a new city, and it was a lifesaver! The app was easy to navigate, and I felt safe the entire time. The driver arrived quickly, and the vehicle was clean and comfortable. I highly recommend this app to anyone!"
   },
-  {
-    image: USERTHREE,
-    name: "Alice Brown",
-    testimonial:
-    "I’ve tried other ride-hailing apps, but QuickLift stands out with its user-friendly interface and excellent customer service. I appreciate how transparent they are about pricing, and I never have to worry about hidden fees. It’s my go-to app for transportation!"
-  },
+  
   {
     image: USERFOUR,
     name: "Michael Brown",
