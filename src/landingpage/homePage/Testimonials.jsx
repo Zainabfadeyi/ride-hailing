@@ -40,7 +40,7 @@ export const TESTIMONIALS = [
     image: USERFOUR,
     name: "Michael Brown",
     testimonial:
-    "As a driver, QuickLift has been a game-changer for me. Their cars are well-maintained, reliable, and comfortable, making it easy for me to offer a great experience to my passengers. I’m thankful for the support and quality service QuickLift provides, and it’s helped me grow my business as an Uber driver!"
+    "As a driver, QuickLift has been a game-changer for me. Their cars are well-maintained, reliable, and comfortable, making it easy for me to offer a great experience to my passengers. I’m thankful for the support and quality service QuickLift provides."
 },
   {
     image: USERFIVE,
