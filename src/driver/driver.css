@@ -266,5 +266,13 @@
       
         font-size: 18px;
     }
+    .content-container p {
+      font-size: 15px;
+    
+  }
+  .content-container h1 {
+    font-size: 20px;
+    margin-top: 20px;
+}
   }
   
