@@ -75,10 +75,14 @@
  
   }
   @media (max-width:768px){
-    .animation{
-      width: 30%;
+    
+    .lottie{
+      width: 200px;
     }
   
+    .animation{
+      width: 300px;
+    }
     
   }
   @media(max-width:400px){
@@ -90,7 +94,6 @@
   
       
     }
-    .animation{
-      width: 30%;
-    }
+   
+    
   }

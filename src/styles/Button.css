@@ -82,14 +82,14 @@
     
   }
   .btn-link-btn{
-    padding: 20px;
+    padding: 12px 20px 12px 20px;
     background-color: #25ce4a;
     outline: none;
     border: none;
     border-radius: 10px;
 
     font-weight: 700;
-    font-size: 17px;
+    font-size: 13px;
     cursor: pointer;
   }
   .btn-link-btn:hover{

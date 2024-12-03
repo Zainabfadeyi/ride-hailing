@@ -36,7 +36,7 @@ const Info = () => {
         <Lottie 
           options={defaultOptions} 
           height={300} 
-          width={320}  
+          width={320} 
         />
       </div>
     </div>
