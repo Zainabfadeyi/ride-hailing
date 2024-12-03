@@ -111,14 +111,13 @@ const Navbar = () => {
                      )}
                    </div>
                 ) : (
-                  <Link to="/register" className="btn-link">
-                    <Button
-                      buttonStyle="btn--outline"
-                      buttonSize="btn--mobile"
+                  <Link to="/Driver-registration" className="btn-link">
+                    <button
+                     className="nav-button"
                       onClick={closeMobileMenu}
                     >
                       Get Started
-                    </Button>
+                    </button>
                   </Link>
                 )}
               </li>
