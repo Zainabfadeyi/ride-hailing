@@ -15,6 +15,7 @@ const Home = () => {
          <Banner/>
           <Info/>
          <ServicesSection/>
+         <div className='space' ></div>
         <Testimonials />
         <Download/>
       </HeroSection>

@@ -16,6 +16,10 @@
     margin-left: 50px;
     margin-right: 50px;
 }
+.space{
+    height: 30vh;
+
+}
 
 
 @media(max-width: 768px) {
@@ -23,5 +27,8 @@
     .home{
     margin-left: 25px;
     margin-right: 25px;
+    }
+    .space{
+        height: 0;
     }
   }

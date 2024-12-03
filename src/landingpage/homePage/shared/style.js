@@ -51,7 +51,7 @@ export const Testimonial = styled.p`
 
 export const NavigationButton = styled.button`
   position: absolute;
-  top: 40%;
+  top: 39%;
   transform: translateY(-50%);
   border: none;
   border-radius: 50%;
