@@ -40,12 +40,12 @@ export const Content = styled.div`
 `;
 
 export const Name = styled.h3`
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 10px;
 `;
 
 export const Testimonial = styled.p`
-  font-size: 15px;
+  font-size: 13px;
   line-height: 21px;
 `;
 
