@@ -45,6 +45,7 @@ export const ServicesSection = () => {
       <div style={{width:"100%"}}>
       <h2>Our Services</h2>
       <p>Products and features vary by country. Some features listed here may not be available in your app.</p>
+  
       <div className="services-container">
         {services.map((service, index) => (
           <div key={index} className="service-card">
