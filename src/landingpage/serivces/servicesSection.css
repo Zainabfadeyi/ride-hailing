@@ -6,12 +6,12 @@
   }
   
   .services-section h2 {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 10px;
   }
   
   .services-section p {
-    font-size: 25px;
+    font-size: 20px;
     color: #666;
     margin-bottom: 30px;
   }
@@ -24,7 +24,7 @@
   
   .service-card {
     background-color: #F5F6F7;
-    padding: 20px;
+    padding: 0px 20px 10px 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: left;
@@ -41,19 +41,20 @@
     display: flex;
   }
   .service-image {
-    width: 130px;
+    width: 110px;
 
   }
   
   .service-card h3 {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 10px;
   }
   
   .service-card p {
-    font-size: 22px;
+    font-size: 18px;
     color: #555;
   }
+ 
   @media(max-width:768px){
     .services-section h2 {
       font-size: 30px;

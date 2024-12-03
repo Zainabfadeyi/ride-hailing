@@ -13,7 +13,7 @@ export const FlexContainer = styled.div`
 export const UsersContainer = styled.div`
   padding: 80px 0;
   p.slide-heading {
-    font-size: 33px;
+    font-size: 27px;
     font-weight: 700;
     color: ${colors.brownishGrey};
     margin-bottom: 50px;
@@ -21,13 +21,13 @@ export const UsersContainer = styled.div`
 
   ${breakpoints.md} {
     > p {
-      font-size: 28px;
+      font-size: 23px;
       margin-bottom: 40px;
     }
   }
 `;
 export const UserCardsContainer = styled(FlexContainer)`
-  gap: 20px;
+  gap: 15px;
   overflow-x: hidden;
   ${breakpoints.lg} {
     display: none;
@@ -35,8 +35,8 @@ export const UserCardsContainer = styled(FlexContainer)`
 `;
 export const UserCard = styled(motion.div)`
   position: relative;
-  width: 160px;
-  max-width: 400px;
+  width: 100px;
+  max-width: 280px;
   max-height: 450px;
   overflow: hidden;
   > img {
