@@ -16,16 +16,16 @@
   justify-content: center;
 }
 .teams-card-wrapper h1{
-    font-size: 70px;
+    font-size: 50px;
 }
 .teams-card-wrapper p{
-    font-size: 30px;
+    font-size: 22px;
     width: 50%;
 }
 .teams-grid {
     display: grid;
     width: 86%;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 16px;
     padding: 20px;
 
@@ -57,10 +57,10 @@
     padding: 16px;
   }
   .team-card-content h3{
-    font-size: 25px;
+    font-size: 20px;
   }
   .team-card-content p{
-    font-size: 18px;
+    font-size: 15px;
   }
   
   .team-card-title {

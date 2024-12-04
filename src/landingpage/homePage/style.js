@@ -36,7 +36,7 @@ export const UserCardsContainer = styled(FlexContainer)`
 export const UserCard = styled(motion.div)`
   position: relative;
   width: 100px;
-  max-width: 280px;
+  max-width: 350px;
   max-height: 450px;
   overflow: hidden;
   > img {

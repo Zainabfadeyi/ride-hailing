@@ -84,8 +84,7 @@
   }
   
   .aboutContainer.visible {
-  
-  height: 100vh; /* Full viewport height */
+  height: auto;
   background-color: black;
 
     opacity: 1; /* Content becomes visible */
