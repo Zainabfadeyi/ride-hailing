@@ -16,7 +16,7 @@
     align-items: center;
     text-align: center;
     margin-bottom: 24px;
-    padding: 24px;
+    padding: 24px 0px;
     /* color: #fff; */
   }
   
@@ -36,7 +36,7 @@
   }
   
   .footer-input {
-    padding: 20px 50px;
+    padding: 20px 30px;
     border-radius: 2px;
     margin-right: 10px;
     outline: none;
@@ -108,21 +108,22 @@
     display: flex;
     align-items: center;
     border-radius: 20px;
-    font-size: 24px;
+    font-size: 20px;
   }
-  
+
+  .social-media-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto 0 auto;
+    /* padding: 0px 24px; */
+
+  }
+    
   .social-media {
     width: 100%;
 
   }
   
-  .social-media-wrap {
-    display: flex;
-    justify-content: center;
-    margin: 40px auto 0 auto;
-    padding: 0px 24px;
-
-  }
   .social-media-name{
     font-size: 24px;
     padding-left: 70px;
