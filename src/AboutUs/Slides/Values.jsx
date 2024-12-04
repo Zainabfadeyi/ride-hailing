@@ -16,13 +16,13 @@ const Values = () => {
   const sections = [
     {
       id: 1,
-      title: 'Great people over complex processes',
+      title: 'Great minds',
       content: 'We believe that the better people we have, the fewer processes we need. Some rules help us move faster and avoid mistakes, but realise that most processes quickly become outdated. We empower our teams with the freedom to make decisions — keeping bureaucracy to a minimum.',
       imageUrl: slide_image_1
     },
     {
       id: 2,
-      title: 'We challenge each other but mean well',
+      title: 'We push but mean well',
       content: 'The best solutions are found through intense but respectful debate. Seek out people that can prove your argument wrong, not simply confirm your beliefs. Great ideas can come from anyone, regardless of their title. Give honest feedback to help people grow, but make sure they know you’re on their side.',
       imageUrl: slide_image_2
     },
