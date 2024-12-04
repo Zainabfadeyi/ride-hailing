@@ -118,6 +118,31 @@ display: none;
       padding: 0;
       height: auto;
     }
+    .value-container .section-image{
+      width: 90%;
+      height: max-content;
+    }
+    .value-container .text-content p{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      width: 90%;
+    }
+    .value-container .text-content h2 {
+      font-size: 22px;
+      margin-bottom: 10px;
+  }
+  .values-notes h1{
+    font-size: 40px;
+
+    align-items: center;
+  }
+  .values-notes p{
+    width: 100%;
+    font-size: 26px;
+  
+  }
   }
  
   @media (max-width:768px){
@@ -137,6 +162,7 @@ display: none;
     .values-notes p{
       width: 100%;
       font-size: 20px;
+      padding: 0;
     }
     .value-container{
       height: auto;
