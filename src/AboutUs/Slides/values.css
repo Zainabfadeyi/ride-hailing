@@ -141,6 +141,7 @@ display: none;
   .values-notes p{
     width: 100%;
     font-size: 26px;
+    padding: 0;
   
   }
   }
