@@ -80,7 +80,7 @@
   
   .footer-link-items a {
    color: darkslategray;
-   font-size: 25px;
+   font-size: 20px;
    margin-bottom: 30px;
     text-decoration: none;
   
@@ -152,6 +152,9 @@
     /* color: #fff; */
     margin-bottom: 16px;
   }
+  @media(max-width:1024){
+
+  }
   
   @media screen and (max-width: 768px) {
     .footer-links {
@@ -160,9 +163,8 @@
       
     }
     .footer-link-items a {
-   
-      font-size: 20px;
-  
+ 
+      font-size: 17px;
      
      }
 

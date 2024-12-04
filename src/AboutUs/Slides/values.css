@@ -112,6 +112,14 @@ display: none;
   .value-container .swiper-pagination-bullet-active {
     background-color: #ff5722;
   }
+  @media(max-width:1024px){
+    .value-container .section{
+     
+      padding: 0;
+      height: auto;
+    }
+  }
+ 
   @media (max-width:768px){
     .value-container .swiper-wrapper{
       width: 100%;
@@ -175,4 +183,3 @@ display: none;
       display: none;
     }
   }
- 
