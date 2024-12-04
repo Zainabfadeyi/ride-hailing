@@ -28,6 +28,13 @@ const Navbar = () => {
     }
   };
 
+  // Function to scroll to the top of the page
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // Smooth scrolling effect
+    });
+  }
   useEffect(() => {
     showButton();
     window.addEventListener("resize", showButton);
@@ -41,8 +48,11 @@ const Navbar = () => {
       <IconContext.Provider value={{ color: "" }}>
         <nav className="navbar">
           <div className="navbar-container Navcontainer">
-            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-             
+            {/* <Link to="/" className="navbar-logo" onClick={closeMobileMenu}> */}
+            <Link to="/" className="navbar-logo" onClick={() => {
+              scrollToTop();
+              closeMobileMenu();
+            }}>
             QuickLift
             </Link>
             <div className="menu-icon" onClick={handleClick}>
@@ -52,7 +62,13 @@ const Navbar = () => {
               
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <div className="nav-menu-item">
-              <Link to= './About-us' className="nav-links">About </Link>
+              {/* <Link to= './About-us' className="nav-links">About </Link> */}
+              <Link to="/About-us" className="nav-links" onClick={() => {
+                  scrollToTop();
+                  closeMobileMenu();
+                }}>
+                  About
+                  </Link>
                 <div className="nav-links">Support</div>
                 <div className="nav-links">Resources</div>
               </div>
@@ -72,7 +88,13 @@ const Navbar = () => {
                        <div className="dropdown-menu">
                          <div className="navbar-dropdown-item">
                           <div ><IoMdPerson style={{color:"blue"}} /></div>
-                          <Link to='/Driver-registration' className="dropdown-item-name">
+                          {/* <Link to='/Driver-registration' className="dropdown-item-name"
+                          
+                          > */}
+                           <Link to="/Driver-registration" className="dropdown-item-name" onClick={() => {
+                              scrollToTop();
+                              closeMobileMenu();
+                            }}>
                             <div className="dropdown-item-text">
                             <div className="top">Become a driver</div>
                             <div  className="bottom">Make money on your terms</div>
@@ -114,7 +136,10 @@ const Navbar = () => {
                   <Link to="/Driver-registration" className="btn-link">
                     <button
                      className="nav-button"
-                      onClick={closeMobileMenu}
+                     onClick={() => {
+                      scrollToTop();
+                      closeMobileMenu();
+                    }}
                     >
                       Get Started
                     </button>
